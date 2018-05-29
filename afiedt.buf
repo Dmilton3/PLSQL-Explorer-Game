@@ -1,0 +1,5 @@
+SELECT *
+FROM Room INNER JOIN Explorer
+ON Room.Room_ID= Explorer.RoomID
+INNER JOIN Explorer_Treasure
+ON Explorer_Treasure.Treasure_ID= Explorer.Treasure_ID;
